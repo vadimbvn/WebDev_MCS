@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Oranienbaum|Pangolin');
+
+.heading {
+	height:100px;
+	background-color: red;
+}
+
+.heading h1 {
+	text-transform: uppercase;
+	line-height: 100px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.image {
+	height: 500px;
+	background-image: url(../img/arsenal.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.nav  {
+	height: 50px;
+	background-color: red;
+	text-decoration: none;
+	color: white;
+
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.text h1 {
+	height: 75px;
+	line-height: 75px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Pangolin', cursive;
+}
+.text p {
+	font-size: 20px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.footer {
+	height: 100px;
+	background: red;
+}
+
+.footer p {
+	text-transform: uppercase;
+	line-height: 100px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
