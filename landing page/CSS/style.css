@@ -13,6 +13,8 @@
 	color: white;
 	font-size: 20px;
 	font-family: 'Montserrat Alternates', sans-serif;
+	box-sizing: border-box;
+	padding-left: 10px;
 
 }
 
@@ -28,6 +30,8 @@
 	background-color: red;
 	text-decoration: none;
 	color: white;
+	box-sizing:border-box;
+	padding-left: 10px;
 
 }
 
@@ -46,10 +50,15 @@
 	font-weight: bold;
 	font-size: 20px;
 	font-family: 'Pangolin', cursive;
+	box-sizing: border-box;
+	padding-left: 10px;
 }
 .text p {
 	font-size: 20px;
 	font-family: 'Oranienbaum', serif;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-bottom: 30px;
 }
 
 .footer {
@@ -63,5 +72,7 @@
 	color: white;
 	font-size: 20px;
 	font-family: 'Montserrat Alternates', sans-serif;
+	box-sizing: border-box;
+	padding-left: 10px;
 
 }
