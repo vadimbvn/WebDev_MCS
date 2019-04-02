@@ -1,0 +1,61 @@
+@import url(reset.css);
+
+
+header {
+	height: 100px;
+	width: 850px;
+	background-color: red;
+	display: block;
+	position: fixed;
+
+}
+
+h1 {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 100px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+
+section {
+	width: 250px;
+	height: 610px;
+	font-size: 18px;
+	border: 1px solid black;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding: 10px;
+	margin-top: 115px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+footer {
+	height: 100px;
+	width: 850px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 100px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	display: block;
+
+}
+
+section p {
+	color: blue;
+	box-sizing: border-box;
+
+}
+
+h2 {
+	box-sizing: border-box;
+	padding: 10px;
+}
