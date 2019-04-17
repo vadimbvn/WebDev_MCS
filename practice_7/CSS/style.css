@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.page {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(http://pa7lux.ru/mcs/space_pattern.jpg);
+	display: flex;
+	position: relative;
+		}
+.sun {
+	width: 300px;
+	height: 300px;
+	background-image: url(http://pa7lux.ru/mcs/sun.png);
+	background-size: cover;
+	background-position: center;
+    margin: auto;
+		}
+.earth {
+	width: 400px;
+    height: 400px;
+	background-image: url(http://pa7lux.ru/mcs/earth.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	animation: rotate 8s linear infinite;
+
+	}
