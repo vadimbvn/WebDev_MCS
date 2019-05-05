@@ -1,0 +1,87 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
+body {
+	font-family: 'Neucha', cursive;
+	font-size: 16px;
+}
+
+.header {
+	width: 100%;
+	min-height: 60px;
+	margin: auto;
+	height: 10vw;
+	display: flex;
+	align-items: center;
+	background-color: black;
+}
+
+.header h1 {
+	color: white;
+	padding-left: 20px;
+	font-size: 2.5em;
+}
+
+.page {
+	margin: 25px;
+}
+
+.columns {
+	width: 100%;
+	margin: auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.column {
+	width: calc((100% - 40px)/3);
+	border: 1px solid black;
+}
+
+.column h1 {
+	padding: 25px 15px 0;
+	font-size: 1.5em;
+}
+
+.column p {
+	padding: 25px 15px;
+}
+
+.image {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image.one {
+	background-image: url(../img/maradona.jpg);
+}
+
+.image.two {
+	background-image: url(../img/kroiff.jpg);
+}
+
+.image.three {
+	background-image: url(../img/xristo.jpg);
+}
+
+.footer {
+	width: 100%;
+	min-height: 60px;
+	margin: auto;
+	height: 10vw;
+	display: flex;
+	align-items: center;
+	background-color: black;
+}
+
+.footer p {
+	color: white;
+	padding-left: 20px;
+	font-size: 1.5em;
+
+
+}
